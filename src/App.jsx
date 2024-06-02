@@ -212,15 +212,15 @@ const onContactSubmit=(e)=>{
       <main className="w-full bg-black flex flex-row justify-center ">
         <div className="relative w-full max-w-[2000px] flex flex-col items-center">
           {/*HERO SECTION$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$444444  */}
-          <section  ref={HomeRef} className=" w-full h-4/5 opacity-70 ">
+          <section  ref={HomeRef} className=" w-full sm:h-4/5  opacity-70 ">
             <img
               src={homecover}
               alt=""
-              className=" absolute w-full h-screen z-[-1]"
+              className=" absolute w-full sm:h-screen h-[60vh] z-[-1]"
             />
 
-            <div className=" w-full absolute h-screen  bg-black opacity-30 "></div>
-            <img src={verticalgradient} alt="" className=" w-full h-screen" />
+            <div className=" w-full absolute sm:h-screen  h-[60vh]  bg-black opacity-30"></div>
+            <img src={verticalgradient} alt="" className=" w-full sm:h-screen h-[60vh]" />
             <div className="absolute left-[20%] top-[50px] w-3/4 ">
              
               <Typing paragraph={"Hey there, I'm Vivek Pandey!.Passionate MERN stack developer with a knack for solving data structures and algorithm problems.Let's create something awesome together. 🚀"}/>
@@ -228,7 +228,7 @@ const onContactSubmit=(e)=>{
             </div>
           </section>
           {/* //SKILLS SECTIONS */}
-          <section ref={SkillsRef} className="bg-black h-3/5  w-full ">
+          <section ref={SkillsRef} className=" relative bg-black h-3/5  w-full ">
             <h1 className=" text-center font-Calsans font-[800] mb-20 text-4xl font-CalSans text-purple-200">
               Skills
             </h1>
