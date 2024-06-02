@@ -1,0 +1,84 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+.glassy{
+
+    backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+}
+
+/* .blackgradient{
+    background: rgb(0,0,0);
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(256,256,256,0) 100%);
+} */
+
+
+@font-face {
+    font-family: 'CalSans';
+    src: url('./assets/fonts/CalSans-SemiBold.woff') format('woff'),
+         url('./assets/fonts/CalSans-SemiBold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  .scrollable-element {
+    scrollbar-width: thin;
+  }
+
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  /* Hide scrollbar for IE, Edge and Firefox */
+  .no-scrollbar {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
+
+  .style-scrollbar::-webkit-scrollbar {
+    width: 8px;               /* width of the entire scrollbar */
+  }
+  
+  .style-scrollbar::-webkit-scrollbar-track {
+    background: black;        /* color of the tracking area */
+  }
+  
+  .style-scrollbar::-webkit-scrollbar-thumb {
+    background-color: grey;    /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
+    border: 3px solid grey;  /* creates padding around scroll thumb */
+  }
+
+
+
+
+  /* typing animation */
+
+  .typed {
+    display: inline-flex;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 0;
+   animation: typing 1.5s steps(30, end) forwards;
+  }
+  
+
+  .blink{
+    border-right: 2px solid;
+   animation: blinking 1s infinite;
+  }
+
+
+
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+
+  @keyframes blinking {
+    0% {border-right-color: transparent}
+    50% {border-right-color:  white}
+    100% {border-right-color: transparent}
+  }
