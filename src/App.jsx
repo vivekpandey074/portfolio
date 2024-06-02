@@ -229,7 +229,7 @@ const onContactSubmit=(e)=>{
           </section>
           {/* //SKILLS SECTIONS */}
           <section ref={SkillsRef} className=" relative bg-black h-3/5  w-full ">
-            <h1 className=" text-center font-Calsans font-[800] mb-20 text-4xl font-CalSans text-purple-200">
+            <h1 className=" text-center font-Calsans font-[800] mb-16 mt-5 text-4xl font-CalSans text-purple-200">
               Skills
             </h1>
             <div className="max-w-[1500px]  w-3/5 h-3/5 gap-12  font-singleDay text-xl m-auto text-white  flex flex-row flex-wrap justify-center items-center">
