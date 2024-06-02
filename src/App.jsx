@@ -23,6 +23,7 @@ import roughmusicplayer from "../public/roughmusicplayer.png";
 import verticalgradient from "../public/verticalgradient.png";
 import 'react-toastify/dist/ReactToastify.css';
 import { GiHamburgerMenu } from "react-icons/gi";
+import linkedinwhite from "../public/linkedinwhite.svg";
 
 import "./index.css";
 import Typing from "./components/Typing";
@@ -196,6 +197,11 @@ const onContactSubmit=(e)=>{
               <li>
                 <a href="https://leetcode.com/u/vivekpande0512/">
                   <img src={leetcode} alt="" className="w-8" />
+                </a>
+              </li>
+              <li>
+                <a href="https://www.linkedin.com/in/vivek-pandey-45884520a">
+                  <img src={linkedinwhite} alt="" className="w-6" />
                 </a>
               </li>
               <li>
