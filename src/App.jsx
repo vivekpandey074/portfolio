@@ -62,7 +62,7 @@ const projects = [
       "Redux",
       "RazorPay",
     ],
-    Live: "retrade-1.onrender.com",
+    Live: "https://retrade-1.onrender.com",
     Github: "https://github.com/vivekpandey074/ReTrade",
     path: retrade,
   },
